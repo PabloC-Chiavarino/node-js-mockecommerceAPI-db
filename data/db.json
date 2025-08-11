@@ -94,5 +94,37 @@
   {"id": 28, "createdAt": "2025-07-05T13:16:44.297400", "totalPrice": 199.99, "clientId": 13, "productIds": [7]},
   {"id": 29, "createdAt": "2025-06-07T17:42:59.816091", "totalPrice": 15.49, "clientId": 13, "productIds": [8]},
   {"id": 30, "createdAt": "2025-07-02T11:05:23.913211", "totalPrice": 99.99, "clientId": 15, "productIds": [6]}
+],
+"tasks":[
+   {
+      "id":1,
+      "title":"TaskItem 1",
+      "description":"Check product list page",
+      "completed":false
+   },
+   {
+      "id":2,
+      "title":"TaskItem 2",
+      "description":"Call customer service",
+      "completed":false
+   },
+   {
+      "id":3,
+      "title":"TaskItem 3",
+      "description":"Check calendar events",
+      "completed":true
+   },
+   {
+      "id":4,
+      "title":"TaskItem 4",
+      "description":"Update prices in database",
+      "completed":false
+   },
+   {
+      "id":5,
+      "title":"TaskItem 5",
+      "description":"Delete old products",
+      "completed":false
+   }
 ]
 }

@@ -967,5 +967,139 @@
       "color": "orange",
       "description": "Mostrar avances del proyecto"
     }
-  ]
+  ],
+  "charts": {
+    "revenue": [
+      {
+        "month": "January",
+        "value": 1200,
+        "cumulative": 1200
+      },
+      {
+        "month": "February",
+        "value": 1550,
+        "cumulative": 2750
+      },
+      {
+        "month": "March",
+        "value": 1400,
+        "cumulative": 4150
+      },
+      {
+        "month": "April",
+        "value": 1800,
+        "cumulative": 5950
+      },
+      {
+        "month": "May",
+        "value": 1600,
+        "cumulative": 7550
+      },
+      {
+        "month": "June",
+        "value": 1900,
+        "cumulative": 9450
+      }
+    ],
+    "orders": [
+      {
+        "month": "January",
+        "value": 12,
+        "cumulative": 12
+      },
+      {
+        "month": "February",
+        "value": 15,
+        "cumulative": 27
+      },
+      {
+        "month": "March",
+        "value": 14,
+        "cumulative": 41
+      },
+      {
+        "month": "April",
+        "value": 18,
+        "cumulative": 59
+      },
+      {
+        "month": "May",
+        "value": 16,
+        "cumulative": 75
+      },
+      {
+        "month": "June",
+        "value": 19,
+        "cumulative": 94
+      }
+    ],
+    "clients": [
+      {
+        "month": "January",
+        "value": 5,
+        "cumulative": 5
+      },
+      {
+        "month": "February",
+        "value": 6,
+        "cumulative": 11
+      },
+      {
+        "month": "March",
+        "value": 4,
+        "cumulative": 15
+      },
+      {
+        "month": "April",
+        "value": 7,
+        "cumulative": 22
+      },
+      {
+        "month": "May",
+        "value": 6,
+        "cumulative": 28
+      },
+      {
+        "month": "June",
+        "value": 5,
+        "cumulative": 33
+      }
+    ],
+    "mostSold": [
+      {
+        "product": "Wireless mouse",
+        "quantity": 12
+      },
+      {
+        "product": "Gaming keyboard",
+        "quantity": 10
+      },
+      {
+        "product": "VR headset",
+        "quantity": 9
+      },
+      {
+        "product": "Wireless earbuds",
+        "quantity": 8
+      },
+      {
+        "product": "Gaming chair",
+        "quantity": 7
+      }
+    ],
+    "pendingTasks": [
+      {
+        "task": "Follow up with client",
+        "count": 2
+      },
+      {
+        "task": "Invoice review",
+        "count": 1
+      },
+      {
+        "task": "Stock replenishment",
+        "count": 3
+      }
+    ]
+  }
 }

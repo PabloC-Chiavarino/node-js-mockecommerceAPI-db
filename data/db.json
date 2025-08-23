@@ -864,31 +864,36 @@
       "id": 1,
       "title": "TaskItem 1",
       "description": "Check product list page",
-      "completed": false
+      "completed": false,
+      "createdAt": "2025-03-01T09:30:00Z"
     },
     {
       "id": 2,
       "title": "TaskItem 2",
       "description": "Call customer service",
-      "completed": false
+      "completed": false,
+      "createdAt": "2025-04-10T14:45:00Z"
     },
     {
       "id": 3,
       "title": "TaskItem 3",
       "description": "Check calendar events",
-      "completed": true
+      "completed": true,
+      "createdAt": "2025-03-20T18:15:00Z"
     },
     {
       "id": 4,
       "title": "TaskItem 4",
       "description": "Update prices in database",
-      "completed": false
+      "completed": false,
+      "createdAt": "2025-04-05T11:20:00Z"
     },
     {
       "id": 5,
       "title": "TaskItem 5",
       "description": "Delete old products",
-      "completed": false
+      "completed": false,
+      "createdAt": "2025-04-15T16:30:00Z"
     }
   ],
   "events": [
@@ -1001,36 +1006,26 @@
         "cumulative": 9450
       }
     ],
-    "orders": [
-      {
-        "month": "January",
-        "value": 12,
-        "cumulative": 12
-      },
-      {
-        "month": "February",
-        "value": 15,
-        "cumulative": 27
-      },
-      {
-        "month": "March",
-        "value": 14,
-        "cumulative": 41
-      },
+    "invoices": [
       {
         "month": "April",
-        "value": 18,
-        "cumulative": 59
+        "value": 2,
+        "cumulative": 2
       },
       {
         "month": "May",
-        "value": 16,
-        "cumulative": 75
+        "value": 9,
+        "cumulative": 11
       },
       {
         "month": "June",
-        "value": 19,
-        "cumulative": 94
+        "value": 12,
+        "cumulative": 23
+      },
+      {
+        "month": "July",
+        "value": 7,
+        "cumulative": 30
       }
     ],
     "clients": [
@@ -1086,19 +1081,43 @@
         "product": "Gaming chair",
         "quantity": 7
       }
-    ],
-    "pendingTasks": [
+    ]
+  },
+  "dashCalcs": {
+    "clientsChange": {
+      "value": 5,
+      "direction": "down",
+      "percent": 16.67
+    },
+    "revenueChange": {
+      "value": 1900,
+      "direction": "up",
+      "percent": 20
+    },
+    "invoicesChange": {
+      "value": 7,
+      "direction": "down",
+      "percent": -40
+    },
+    "eventsInfo": {
+      "upcoming": 1,
+      "next": "mock"
+    },
+    "productsInfo": {
+      "total": 30
+    },
+    "topProducts": [
       {
-        "task": "Follow up with client",
-        "count": 2
+        "product": "Wireless Mouse",
+        "quantity": 12
       },
       {
-        "task": "Invoice review",
-        "count": 1
+        "product": "Gaming Keyboard",
+        "quantity": 10
       },
       {
-        "task": "Stock replenishment",
-        "count": 3
+        "product": "VR Headset",
+        "quantity": 9
       }
     ]
   }

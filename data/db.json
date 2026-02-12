@@ -859,39 +859,39 @@
       ]
     }
   ],
-  "tasks": [
+    "tasks": [
     {
       "id": 1,
-      "title": "TaskItem 1",
-      "description": "Check product list page",
+      "title": "Review Product List",
+      "description": "Check the product list page for accuracy and layout issues",
       "completed": false,
       "createdAt": "2025-03-01T09:30:00Z"
     },
     {
       "id": 2,
-      "title": "TaskItem 2",
-      "description": "Call customer service",
+      "title": "Contact Customer Support",
+      "description": "Call customer service to resolve pending issues",
       "completed": false,
       "createdAt": "2025-04-10T14:45:00Z"
     },
     {
       "id": 3,
-      "title": "TaskItem 3",
-      "description": "Check calendar events",
+      "title": "Review Calendar",
+      "description": "Check upcoming calendar events and confirm attendance",
       "completed": true,
       "createdAt": "2025-03-20T18:15:00Z"
     },
     {
       "id": 4,
-      "title": "TaskItem 4",
-      "description": "Update prices in database",
+      "title": "Update Database Prices",
+      "description": "Update product prices in the database to reflect current rates",
       "completed": false,
       "createdAt": "2025-04-05T11:20:00Z"
     },
     {
       "id": 5,
-      "title": "TaskItem 5",
-      "description": "Delete old products",
+      "title": "Remove Obsolete Products",
+      "description": "Delete old or discontinued products from the system",
       "completed": false,
       "createdAt": "2025-04-15T16:30:00Z"
     }

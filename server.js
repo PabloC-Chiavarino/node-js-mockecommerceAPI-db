@@ -4,9 +4,6 @@ const server = jsonServer.create()
 const router = jsonServer.router('data/db.json')
 const middlewares = jsonServer.defaults()
 
-server.use(middlewares)
-server.use(router)
-
 server.post('/login', (req, res) => {
   const { user, password } = req.body
 
@@ -19,6 +16,10 @@ server.post('/login', (req, res) => {
 
   res.status(401).json({ message: 'Invalid credentials' })
 })
+
+server.use(middlewares)
+server.use(router)
+
 
 const PORT = process.env.PORT || 3001
 

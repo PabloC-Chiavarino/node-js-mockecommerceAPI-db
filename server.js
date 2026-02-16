@@ -8,9 +8,9 @@ server.use(middlewares)
 server.use(router)
 
 server.post('/login', (req, res) => {
-  const { username, password } = req.body
+  const { user, password } = req.body
 
-  if (username === 'admin' && password === 'admin') {
+  if (user === 'admin' && password === 'admin') {
     return res.json({
       token: 'mock-token-123',
       user: { id: 1, username: 'admin' }

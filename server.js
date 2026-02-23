@@ -5,8 +5,11 @@ const router = jsonServer.router('data/db.json')
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
-
 server.use(jsonServer.bodyParser)
+
+server.get('/health', (req, res) => {
+  res.json({ message: 'OK', date: new Date().toISOString() })
+})
 
 server.post('/login', (req, res) => {
   const { user, password } = req.body
@@ -23,9 +26,8 @@ server.post('/login', (req, res) => {
 
 server.use(router)
 
-
 const PORT = process.env.PORT || 3001
 
 server.listen(PORT, () => {
-    console.log(`JSON Server is running on port ${PORT}`)
+  console.log(`JSON Server is running on port ${PORT}`)
 })

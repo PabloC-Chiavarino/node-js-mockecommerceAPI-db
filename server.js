@@ -7,6 +7,10 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
 
+server.get('/', (req, res) => {
+  res.redirect('/health')
+})
+
 server.get('/health', (req, res) => {
   res.json({ message: 'OK', date: new Date().toISOString() })
 })

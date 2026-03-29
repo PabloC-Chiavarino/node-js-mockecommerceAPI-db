@@ -973,6 +973,7 @@
       "title": "Review Product List",
       "description": "Check the product list page for accuracy and layout issues",
       "completed": false,
+      "archived": false,
       "createdAt": "2025-03-01T09:30:00Z",
       "priority": "medium"
     },
@@ -981,6 +982,7 @@
       "title": "Contact Customer Support",
       "description": "Call customer service to resolve pending issues",
       "completed": false,
+      "archived": false,
       "createdAt": "2025-04-10T14:45:00Z",
       "priority": "high"
     },
@@ -989,6 +991,7 @@
       "title": "Review Calendar",
       "description": "Check upcoming calendar events and confirm attendance",
       "completed": true,
+      "archived": false,
       "createdAt": "2025-03-20T18:15:00Z",
       "priority": "medium"
     },
@@ -997,6 +1000,7 @@
       "title": "Update Database Prices",
       "description": "Update product prices in the database to reflect current rates",
       "completed": false,
+      "archived": false,
       "createdAt": "2025-04-05T11:20:00Z",
       "priority": "high"
     },
@@ -1005,6 +1009,7 @@
       "title": "Remove Obsolete Products",
       "description": "Delete old or discontinued products from the system",
       "completed": false,
+      "archived": false,
       "createdAt": "2025-04-15T16:30:00Z",
       "priority": "low"
     },
@@ -1013,6 +1018,7 @@
       "title": "Process Pending Orders",
       "description": "Validate and process orders that are still pending",
       "completed": false,
+      "archived": false,
       "createdAt": "2025-04-19T13:40:00Z",
       "priority": "high"
     },
@@ -1021,8 +1027,45 @@
       "title": "Schedule Team Meeting",
       "description": "Organize a meeting to review weekly performance metrics",
       "completed": true,
+      "archived": false,
       "createdAt": "2025-04-08T15:10:00Z",
       "priority": "low"
+    },
+    {
+      "id": 8,
+      "title": "Prepare Q1 2024 Tax Documents",
+      "description": "Gather and organize all necessary financial documents for the Q1 2024 tax filing",
+      "completed": true,
+      "archived": true,
+      "createdAt": "2025-04-12T10:00:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": 9,
+      "title": "Onboard New Developer (Alex)",
+      "description": "Set up workspace, credentials, and provide orientation for the new backend developer",
+      "completed": true,
+      "archived": true,
+      "createdAt": "2025-04-16T09:15:00Z",
+      "priority": "high"
+    },
+    {
+      "id": 10,
+      "title": "Migrate Server to AWS",
+      "description": "Transition all databases and hosting environments from the old local server to AWS",
+      "completed": true,
+      "archived": true,
+      "createdAt": "2025-04-18T14:20:00Z",
+      "priority": "medium"
+    },
+    {
+      "id": 11,
+      "title": "End of Year Company Dinner 2024",
+      "description": "Organize the catering, venue, and invitations for the annual company celebration",
+      "completed": true,
+      "archived": true,
+      "createdAt": "2025-04-20T22:00:00Z",
+      "priority": "high"
     }
   ],
   "events": [

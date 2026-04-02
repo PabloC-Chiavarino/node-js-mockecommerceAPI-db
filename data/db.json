@@ -1072,41 +1072,42 @@
     {
       "id": 1,
       "title": "Documentation review",
-      "category": "low",
+      "category": "review",
       "description": "Verify user manual and API",
       "qNote": "Docs ready for review"
     },
     {
       "id": 2,
       "title": "Sprint planning",
-      "category": "high",
+      "category": "meeting",
       "description": "Define sprint backlog and priorities",
       "qNote": "Prioritize login"
     },
     {
       "id": 3,
       "title": "UI mockups design",
-      "category": "medium",
+      "category": "design",
       "description": "Create wireframes for the new view",
       "qNote": "Missing header on desktop"
     },
     {
       "id": 4,
       "title": "Client meeting",
-      "category": "high",
+      "category": "meeting",
       "description": "Present progress and gather feedback",
       "qNote": "Prepare slides"
     },
     {
       "id": 5,
       "title": "Payment module refactor",
-      "category": "medium",
+      "category": "development",
       "description": "Optimize transaction logic",
       "qNote": "Check error logs"
     },
     {
       "id": 6,
       "title": "Monthly standup",
+      "category": "meeting",
       "startDate": "2026-03-24T09:00",
       "endDate": "2026-03-24T09:30",
       "allDay": false,
@@ -1117,6 +1118,7 @@
     {
       "id": 7,
       "title": "Release delivery",
+      "category": "release",
       "startDate": "2026-03-25T14:00",
       "endDate": "2026-03-25T16:00",
       "allDay": false,
@@ -1127,6 +1129,7 @@
     {
       "id": 8,
       "title": "Internal training",
+      "category": "meeting",
       "startDate": "2026-04-01T09:00",
       "endDate": "2026-04-01T12:00",
       "allDay": false,
@@ -1137,6 +1140,7 @@
     {
       "id": 9,
       "title": "Server maintenance",
+      "category": "development",
       "startDate": "2026-04-02T22:00",
       "endDate": "2026-04-03T02:00",
       "allDay": false,
@@ -1147,12 +1151,35 @@
     {
       "id": 10,
       "title": "Stakeholder demo",
+      "category": "meeting",
       "startDate": "2026-04-05T11:00",
       "endDate": "2026-04-05T12:30",
       "allDay": false,
       "color": "orange",
       "description": "Show project progress",
       "qNote": "Focus on UX"
+    },
+    {
+      "id": 11,
+      "title": "Design System Review",
+      "category": "review",
+      "startDate": "2026-04-06T10:00",
+      "endDate": "2026-04-06T11:30",
+      "allDay": false,
+      "color": "blue",
+      "description": "Review consistency across the new components",
+      "qNote": "Check contrast ratios"
+    },
+    {
+      "id": 12,
+      "title": "Dashboard Layout Redesign",
+      "category": "design",
+      "startDate": "2026-04-08T14:00",
+      "endDate": "2026-04-08T17:00",
+      "allDay": false,
+      "color": "purple",
+      "description": "Redesign layout to be more minimalist",
+      "qNote": "Use new grid system"
     }
   ],
   "charts": {
@@ -1297,11 +1324,12 @@
       "total": 30
     },
     "events": {
-      "total": 10,
+      "total": 12,
       "upcoming": [
         {
           "id": 6,
           "title": "Monthly standup",
+          "category": "meeting",
           "startDate": "2026-03-24T09:00",
           "endDate": "2026-03-24T09:30",
           "allDay": false,
@@ -1312,6 +1340,7 @@
         {
           "id": 7,
           "title": "Release delivery",
+          "category": "release",
           "startDate": "2026-03-25T14:00",
           "endDate": "2026-03-25T16:00",
           "allDay": false,
@@ -1322,6 +1351,7 @@
         {
           "id": 8,
           "title": "Internal training",
+          "category": "meeting",
           "startDate": "2026-04-01T09:00",
           "endDate": "2026-04-01T12:00",
           "allDay": false,
@@ -1332,12 +1362,35 @@
         {
           "id": 9,
           "title": "Server maintenance",
+          "category": "development",
           "startDate": "2026-04-02T22:00",
           "endDate": "2026-04-03T02:00",
           "allDay": false,
           "color": "red",
           "description": "Critical security update",
           "qNote": "Notify support"
+        },
+        {
+          "id": 11,
+          "title": "Design System Review",
+          "category": "review",
+          "startDate": "2026-04-06T10:00",
+          "endDate": "2026-04-06T11:30",
+          "allDay": false,
+          "color": "blue",
+          "description": "Review consistency across the new components",
+          "qNote": "Check contrast ratios"
+        },
+        {
+          "id": 12,
+          "title": "Dashboard Layout Redesign",
+          "category": "design",
+          "startDate": "2026-04-08T14:00",
+          "endDate": "2026-04-08T17:00",
+          "allDay": false,
+          "color": "purple",
+          "description": "Redesign layout to be more minimalist",
+          "qNote": "Use new grid system"
         }
       ]
     },
